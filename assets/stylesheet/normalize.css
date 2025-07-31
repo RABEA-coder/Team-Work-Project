@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap');
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    object-fit: cover;
+}
+main, header, nav, section, div, figure, ul, footer, aside, li{
+    display: flex;
+    flex-wrap: wrap;
+}
+:root{
+    --orange:rgb(236,126,6);
+    --light-white:rgb(198,198,198);
+    --white2:rgb(156,156,156);
+    --darkgray:rgb(27,27,27);
+    --kufam: "Kufam", sans-serif;
+    --blackbg:rgb(30,30,31);
+}
