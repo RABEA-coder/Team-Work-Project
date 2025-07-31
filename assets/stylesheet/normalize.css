@@ -24,4 +24,5 @@ main, header, nav, section, div, figure, ul, footer, aside, li{
     --darkgray:rgb(27,27,27);
     --kufam: "Kufam", sans-serif;
     --blackbg:rgb(30,30,31);
+    --shadowcolor:rgb(23,23,23);
 }
