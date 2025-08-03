@@ -12,7 +12,7 @@ Wares = About US
 
 Kosha = Services
 
-Noname = Pages
+Noname = Pages -> this page has two sub pages so I want to create one of them which is shop page
 
 Rabea = Blog
 

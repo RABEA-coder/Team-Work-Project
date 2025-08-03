@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shop</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-[#1B1B1B] min-h-screen bg-[url(./assets/images/bg-top.png)] bg-top bg-center bg-no-repeat pt-[100px]"
+  >
+    <!-- ______________top-banner_____________ -->
+    <div class="w-full h-[100px] bg-black/50">
+      <nav class="w-[90%] h-full mx-auto flex justify-between items-center">
+        <p class="text-orange-500 capitalize font-bold text-2xl tracking-wide">
+          shop
+        </p>
+        <ul class="flex gap-2 capitalize text-gray-500">
+          <li><i class="fa-solid fa-house text-white"></i></li>
+          <li><i class="fa-solid fa-chevron-right"></i></li>
+          <li>products</li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- ___________________main_________________ -->
+    <main class="w-[90%] mx-auto pt-12">
+      <p class="text-white capitalize font-bold text-2xl tracking-wide mb-5">
+        shop
+      </p>
+      <div class="flex justify-between">
+        <div>
+          <p class="bg-black rounded-md text-white px-5 py-3">
+            Showing 1–6 of 10 results
+          </p>
+        </div>
+        <div class="flex gap-3">
+          <div
+            class="relative bg-black text-white rounded-3xl px-3 w-[150px]"
+          >
+            <select
+              name="cases"
+              class=" w-full text-gray-500 appearance-none w-full h-full outline-none"
+            >
+              <option value="6-products">6 Products</option>
+              <option value="16-Products">16 Products</option>
+              <option value="32-Products">32 Products</option>
+              <option value="48-Products">48 Products</option>
+              <option value="64-Products">64 Products</option>
+              <option value="128-Products">128 Products</option>
+            </select>
+            <span class="text-gray-500 absolute top-3 right-3"><i class="fa-solid fa-caret-down"></i></span>
+          </div>
+
+          <div class="bg-black text-white rounded-3xl flex relative px-3 w-[200px]">
+            <select
+              name="cases"
+              class="text-gray-500 appearance-none w-full h-full outline-none"
+            >
+              <option value="Defaul">Defaul</option>
+              <option value="Defaul">Featured</option>
+              <option value="Defaul">Top Rated</option>
+              <option value="Defaul">Popular</option>
+              <option value="Defaul">Relevance</option>
+              <option value="Defaul">Sort by latest</option>
+              <option value="Defaul">Sort by oldest</option>
+              <option value="Defaul">Price low to high</option>
+              <option value="Defaul">Price hight to low</option>
+              <option value="Defaul">Highest Discount</option>
+              <option value="Defaul">Lowest Discount</option>
+              <option value="Defaul">Alphabatically, A-Z</option>
+              <option value="Defaul">Alphabatically, Z-A</option>
+            </select>
+            <span class="text-gray-500 absolute top-3 right-3"><i class="fa-solid fa-caret-down"></i></span>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
