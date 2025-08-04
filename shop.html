@@ -36,7 +36,7 @@
     </div>
 
     <!-- ___________________main_________________ -->
-    <main class="w-[90%] mx-auto pt-12">
+    <main class="w-[90%] mx-auto py-12">
       <p class="text-white capitalize font-bold text-2xl tracking-wide mb-5">
         shop
       </p>
@@ -47,12 +47,10 @@
           </p>
         </div>
         <div class="flex gap-3">
-          <div
-            class="relative bg-black text-white rounded-3xl px-3 w-[150px]"
-          >
+          <div class="relative bg-black text-white rounded-3xl px-3 w-[150px]">
             <select
               name="cases"
-              class=" w-full text-gray-500 appearance-none w-full h-full outline-none"
+              class="w-full text-gray-500 appearance-none w-full h-full outline-none"
             >
               <option value="6-products">6 Products</option>
               <option value="16-Products">16 Products</option>
@@ -61,10 +59,14 @@
               <option value="64-Products">64 Products</option>
               <option value="128-Products">128 Products</option>
             </select>
-            <span class="text-gray-500 absolute top-3 right-3"><i class="fa-solid fa-caret-down"></i></span>
+            <span class="text-gray-500 absolute top-3 right-3"
+              ><i class="fa-solid fa-caret-down"></i
+            ></span>
           </div>
 
-          <div class="bg-black text-white rounded-3xl flex relative px-3 w-[200px]">
+          <div
+            class="bg-black text-white rounded-3xl flex relative px-3 w-[200px]"
+          >
             <select
               name="cases"
               class="text-gray-500 appearance-none w-full h-full outline-none"
@@ -83,10 +85,162 @@
               <option value="Defaul">Alphabatically, A-Z</option>
               <option value="Defaul">Alphabatically, Z-A</option>
             </select>
-            <span class="text-gray-500 absolute top-3 right-3"><i class="fa-solid fa-caret-down"></i></span>
+            <span class="text-gray-500 absolute top-3 right-3"
+              ><i class="fa-solid fa-caret-down"></i
+            ></span>
           </div>
         </div>
       </div>
+
+      <!-- __________________section-products_________________ -->
+      <div class="w-full py-5 flex flex-wrap gap-x-6 gap-y-12 items-center">
+
+        <div class="relative w-[22%] cursor-pointer bg-black rounded-md group">
+          <figure class="w-full rounded-md overflow-hidden group">
+            <img src="./assets/images/pr2.jpg" class="w-full transition duration-200" alt="pr2" />
+            <img src="./assets/images/pr5.jpg" alt="pr5" class="absolute top-0 left-0 rounded-md w-[98%] opacity-0 group-hover:opacity-100 group-hover:w-full duration-200 transition">
+          </figure>
+          <p class="absolute top-1 right-3 font-bold">$99</p>
+          <p class="text-white text-center capitalize font-bold py-2">
+            crypto miner x2
+          </p>
+          <p class="text-gray-500 capitalize text-center pb-5">pro products</p>
+          <ul class="absolute top-[30%] rounded-md right-0 bg-black text-white group-hover:-translate-x-1 opacity-0 group-hover:visible  duration-200 transition group-hover:opacity-100">
+            <li class="relative py-1 px-2 border-b border-gray-500 hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-heart peer"></i>
+              <span class="absolute opacity-0 invisible w-[110px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">add to whisllist</span>
+            </li>
+            <li class="relative py-1 px-2 border-b border-gray-500  hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-shuffle peer"></i>
+              <span class="absolute opacity-0 invisible text-center w-[120px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">add to compare</span>
+            </li><li class="relative py-1 px-2 border-b border-gray-500 hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-magnifying-glass peer w-full"></i>
+              <span class="absolute opacity-0 invisible text-center w-[90px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">quick view</span>
+            </li>
+          </ul>
+          <button class="capitalize px-5 py-2 rounded-3xl bg-orange-500 font-bold absolute -bottom-6 opacity-0 left-1/2 transform -translate-x-1/2 group-hover:opacity-100 group-hover:translate-y-1 hover:bg-orange-600 transition-all duration-200">add to card</button>
+        </div>
+
+        <div class="relative w-[22%] cursor-pointer bg-black rounded-md group">
+          <figure class="w-full rounded-md overflow-hidden group">
+            <img src="./assets/images/pr5-2.jpg" class="w-full transition duration-200" alt="pr2" />
+            <img src="./assets/images/pr5.jpg" alt="pr5" class="absolute top-0 left-0 rounded-md w-[98%] opacity-0 group-hover:opacity-100 group-hover:w-full duration-200 transition">
+          </figure>
+          <p class="absolute top-1 right-3 font-bold">$99</p>
+          <p class="text-white text-center capitalize font-bold py-2">
+            crypto miner x2
+          </p>
+          <p class="text-gray-500 capitalize text-center pb-5">pro products</p>
+          <ul class="absolute top-[30%] rounded-md right-0 bg-black text-white group-hover:-translate-x-1 opacity-0 group-hover:visible  duration-200 transition group-hover:opacity-100">
+            <li class="relative py-1 px-2 border-b border-gray-500 hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-heart peer"></i>
+              <span class="absolute opacity-0 invisible w-[110px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">add to whisllist</span>
+            </li>
+            <li class="relative py-1 px-2 border-b border-gray-500  hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-shuffle peer"></i>
+              <span class="absolute opacity-0 invisible text-center w-[120px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">add to compare</span>
+            </li><li class="relative py-1 px-2 border-b border-gray-500 hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-magnifying-glass peer w-full"></i>
+              <span class="absolute opacity-0 invisible text-center w-[90px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">quick view</span>
+            </li>
+          </ul>
+          <button class="capitalize px-5 py-2 rounded-3xl bg-orange-500 font-bold absolute -bottom-6 opacity-0 left-1/2 transform -translate-x-1/2 group-hover:opacity-100 group-hover:translate-y-1 hover:bg-orange-600 transition-all duration-200">add to card</button>
+        </div>
+
+        <div class="relative w-[22%] cursor-pointer bg-black rounded-md group">
+          <figure class="w-full rounded-md overflow-hidden group">
+            <img src="./assets/images/pr8.jpg" class="w-full transition duration-200" alt="pr2" />
+            <img src="./assets/images/pr8-2.jpg" alt="pr5" class="absolute top-0 left-0 rounded-md w-[98%] opacity-0 group-hover:opacity-100 group-hover:w-full duration-200 transition">
+          </figure>
+          <p class="absolute top-1 right-3 font-bold">$99</p>
+          <p class="text-white text-center capitalize font-bold py-2">
+            crypto miner x2
+          </p>
+          <p class="text-gray-500 capitalize text-center pb-5">pro products</p>
+          <ul class="absolute top-[30%] rounded-md right-0 bg-black text-white group-hover:-translate-x-1 opacity-0 group-hover:visible  duration-200 transition group-hover:opacity-100">
+            <li class="relative py-1 px-2 border-b border-gray-500 hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-heart peer"></i>
+              <span class="absolute opacity-0 invisible w-[110px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">add to whisllist</span>
+            </li>
+            <li class="relative py-1 px-2 border-b border-gray-500  hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-shuffle peer"></i>
+              <span class="absolute opacity-0 invisible text-center w-[120px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">add to compare</span>
+            </li><li class="relative py-1 px-2 border-b border-gray-500 hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-magnifying-glass peer w-full"></i>
+              <span class="absolute opacity-0 invisible text-center w-[90px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">quick view</span>
+            </li>
+          </ul>
+          <button class="capitalize px-5 py-2 rounded-3xl bg-orange-500 font-bold absolute -bottom-6 opacity-0 left-1/2 transform -translate-x-1/2 group-hover:opacity-100 group-hover:translate-y-1 hover:bg-orange-600 transition-all duration-200">add to card</button>
+        </div>
+
+        <div class="relative w-[22%] cursor-pointer bg-black rounded-md group">
+          <figure class="w-full rounded-md overflow-hidden group">
+            <img src="./assets/images/pr7.jpg" class="w-full transition duration-200" alt="pr2" />
+            <img src="./assets/images/pr7-2.jpg" alt="pr5" class="absolute top-0 left-0 rounded-md w-[98%] opacity-0 group-hover:opacity-100 group-hover:w-full duration-200 transition">
+          </figure>
+          <p class="absolute top-1 right-3 font-bold">$99</p>
+          <p class="text-white text-center capitalize font-bold py-2">
+            crypto miner x2
+          </p>
+          <p class="text-gray-500 capitalize text-center pb-5">pro products</p>
+          <ul class="absolute top-[30%] rounded-md right-0 bg-black text-white group-hover:-translate-x-1 opacity-0 group-hover:visible  duration-200 transition group-hover:opacity-100">
+            <li class="relative py-1 px-2 border-b border-gray-500 hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-heart peer"></i>
+              <span class="absolute opacity-0 invisible w-[110px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">add to whisllist</span>
+            </li>
+            <li class="relative py-1 px-2 border-b border-gray-500  hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-shuffle peer"></i>
+              <span class="absolute opacity-0 invisible text-center w-[120px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">add to compare</span>
+            </li><li class="relative py-1 px-2 border-b border-gray-500 hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-magnifying-glass peer w-full"></i>
+              <span class="absolute opacity-0 invisible text-center w-[90px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">quick view</span>
+            </li>
+          </ul>
+          <button class="capitalize px-5 py-2 rounded-3xl bg-orange-500 font-bold absolute -bottom-6 opacity-0 left-1/2 transform -translate-x-1/2 group-hover:opacity-100 group-hover:translate-y-1 hover:bg-orange-600 transition-all duration-200">add to card</button>
+        </div>
+
+        <div class="relative w-[22%] cursor-pointer bg-black rounded-md group">
+          <figure class="w-full rounded-md overflow-hidden group">
+            <img src="./assets/images/pr5.jpg" class="w-full transition duration-200" alt="pr2" />
+            <img src="./assets/images/pr5-2.jpg" alt="pr5" class="absolute top-0 left-0 rounded-md w-[98%] opacity-0 group-hover:opacity-100 group-hover:w-full duration-200 transition">
+          </figure>
+          <p class="absolute top-1 right-3 font-bold">$99</p>
+          <p class="text-white text-center capitalize font-bold py-2">
+            crypto miner x2
+          </p>
+          <p class="text-gray-500 capitalize text-center pb-5">pro products</p>
+          <ul class="absolute top-[30%] rounded-md right-0 bg-black text-white group-hover:-translate-x-1 opacity-0 group-hover:visible  duration-200 transition group-hover:opacity-100">
+            <li class="relative py-1 px-2 border-b border-gray-500 hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-heart peer"></i>
+              <span class="absolute opacity-0 invisible w-[110px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">add to whisllist</span>
+            </li>
+            <li class="relative py-1 px-2 border-b border-gray-500  hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-shuffle peer"></i>
+              <span class="absolute opacity-0 invisible text-center w-[120px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">add to compare</span>
+            </li><li class="relative py-1 px-2 border-b border-gray-500 hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-magnifying-glass peer w-full"></i>
+              <span class="absolute opacity-0 invisible text-center w-[90px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">quick view</span>
+            </li>
+          </ul>
+          <button class="capitalize px-5 py-2 rounded-3xl bg-orange-500 font-bold absolute -bottom-6 opacity-0 left-1/2 transform -translate-x-1/2 group-hover:opacity-100 group-hover:translate-y-1 hover:bg-orange-600 transition-all duration-200">add to card</button>
+        </div>
+
+        <div class="relative w-[22%] cursor-pointer bg-black rounded-md group">
+          <figure class="w-full rounded-md overflow-hidden group">
+            <img src="./assets/images/pr4.jpg" class="w-full transition duration-200" alt="pr2" />
+            <img src="./assets/images/pr1.jpg" alt="pr5" class="absolute top-0 left-0 rounded-md w-[98%] opacity-0 group-hover:opacity-100 group-hover:w-full duration-200 transition">
+          </figure>
+          <p class="absolute top-1 right-3 font-bold">$99</p>
+          <p class="text-white text-center capitalize font-bold py-2">
+            crypto miner x2
+          </p>
+          <p class="text-gray-500 capitalize text-center pb-5">pro products</p>
+          <ul class="absolute top-[30%] rounded-md right-0 bg-black text-white group-hover:-translate-x-1 opacity-0 group-hover:visible  duration-200 transition group-hover:opacity-100">
+            <li class="relative py-1 px-2 border-b border-gray-500 hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-heart peer"></i>
+              <span class="absolute opacity-0 invisible w-[110px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">add to whisllist</span>
+            </li>
+            <li class="relative py-1 px-2 border-b border-gray-500  hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-shuffle peer"></i>
+              <span class="absolute opacity-0 invisible text-center w-[120px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">add to compare</span>
+            </li><li class="relative py-1 px-2 border-b border-gray-500 hover:bg-orange-500 duration-200 transition rounded-md"><i class="fa-solid fa-magnifying-glass peer w-full"></i>
+              <span class="absolute opacity-0 invisible text-center w-[90px] bg-black px-2 py-1 top-0 right-10 text-sm rounded-xl peer-hover:opacity-100 peer-hover:visible duration-200 transition">quick view</span>
+            </li>
+          </ul>
+          <button class="capitalize px-5 py-2 rounded-3xl bg-orange-500 font-bold absolute -bottom-6 opacity-0 left-1/2 transform -translate-x-1/2 group-hover:opacity-100 group-hover:translate-y-1 hover:bg-orange-600 transition-all duration-200">add to card</button>
+        </div>
+      </div>
+
+      <div class="flex justify-center items-center gap-3 mt-9">
+        <div class="w-[80px] h-[80px] border border-orange-500 hover:bg-orange-500 duration-200 transition hover:text-white text-orange-500 flex justify-center items-center text-3xl font-thin rounded-md"> 1 </div>
+        <div class="w-[80px] h-[80px] border border-orange-500 hover:bg-orange-500 duration-200 transition hover:text-white text-orange-500 flex justify-center items-center text-3xl font-thin rounded-md"> 2 </div>
+        <div class="w-[80px] h-[80px] border border-orange-500 hover:bg-orange-500 duration-200 transition hover:text-white text-orange-500 flex justify-center items-center rounded-md font-bold text-xl"> ---> </div>
+      </div>
     </main>
+
+
   </body>
 </html>
