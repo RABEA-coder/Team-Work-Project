@@ -1,0 +1,80 @@
+/* Reset margin, padding, box-sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set all elements to display: flex */
+div,
+section,
+article,
+aside,
+header,
+footer,
+nav,
+ul,
+form,
+h1,
+h2,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+figcaption {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Remove list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove text-decoration from links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Optional: make buttons look consistent */
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font: inherit;
+}
+
+/* Optional: inputs and buttons alignment */
+input,
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: kufamm;
+  src: url(../font/Kufam-Italic-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: kufam1;
+  src: url(../font/Kufam-VariableFont_wght.ttf);
+}
+@font-face {
+  font-family: kufam2;
+  src: url(../font/Kufam-Regular.ttf);
+}
+:root {
+  --kufam2: kufam2;
+  --kufam1: kufam1;
+  --kufam: kufamm;
+  --dark: black;
+  --dark-1: #242629;
+  --orange: #ec7e06;
+  --gray: #8a8a8a;
+  --whait: #fff;
+}
